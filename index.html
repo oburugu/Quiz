@@ -5,17 +5,17 @@
     <title>Quiz</title>
     <link href="css/styles.css" rel="stylesheet" type="text/css" media="all">
     <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
-    <script src="js/script.js"></script>
+
   </head>
   <body>
     <div class= "header">
       <h1>Quiz</h1>
-      <div class="results">
-        <h2>You scored:Not yet attempted</h2>
+      <h2>You scored: Not yet attemted</h2>
+      <div id="results">
       </div>
     </div>
     <div class="body">
-      <form name="quiz" onsubmit="return onSubmit()">
+      <form name="quiz" onSubmit="return onSubmit()">
       <div class="question">
         <h1>What does HTML stand for?</h1>
          <input type="radio" name="q1" value="a">a.HyperText Markup Language<br>
@@ -40,5 +40,6 @@
       <button type="submit">Submit Test</button>
       </div>
     </div>
+    <script src="js/scripts.js"></script>
   </body>
 </html>
