@@ -18,5 +18,9 @@
   margin-bottom:5px;
   padding-bottom: 5px;
   background-color: #eee;
-
 }
+
+header {
+	text-align: center;
+	border-bottom: #fff solid 1px;
+	margin-bottom: 10px;
